@@ -1,0 +1,79 @@
+
+* {
+    box-sizing: border-box;
+}
+    body {
+        margin: 0;
+    }
+    .header {
+        background-color: rgba(200, 208, 213, 0.8);
+        padding: 40px;
+        text-align: center;
+    }
+    .topnav {
+        max-width: 100%;
+        overflow: hidden;
+        background-color: hsla(203.08, 13.4%, 20%, 0.6);
+    }
+    .topnav a {
+        max-width: 100%;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 20px;
+        text-decoration: none;
+    }
+    .topnav a:hover {
+        background-color:rgba(255, 255, 255, 0.8);
+        color: white;
+    }
+    a:link {
+        text-decoration:none;
+        color:white;
+    }
+    a:visited {
+        text-decoration: none;
+        color:white;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    a:active {
+        text-decoration: underline;
+    }
+    body {
+        font-family: monospace;
+        color: white;
+        background-image: url("incm15e255ez.gif");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+    }
+    h1 {
+        font-family: monospace;
+        color: black;
+    }
+    h2 {
+        font-family: monospace;
+        color: white;
+    }
+    h4 {
+        font-family: monospace;
+        color: white;
+
+    }
+    ol {
+        background: hsla(203.08, 13.4%, 20%, 0.6);
+        padding: 20px;
+    }
+
+    ol li {
+        background: rgba(200, 208, 213, 0.8);
+        color: white;
+        padding: 5px;
+        margin-left: 35px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
