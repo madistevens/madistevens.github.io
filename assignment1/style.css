@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+    color: white;
+    background-color: #9b94cc;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header {
+    padding: 40px;
+    text-align: center;
+}
+
+/* remixing from https://www.w3schools.com/howto/howto_js_topnav.asp */
+.recipe-nav {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgb(113, 108, 163);
+}
+
+.recipe-nav a {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.recipe-nav a:hover {
+    background-color: rgba(255, 255, 255);
+    color: black;
+}
+
+.video-nav {
+    max-width: 100%;
+    overflow: hidden;
+    background-color: rgb(95, 91, 141);
+    margin-top: 20px;
+}
+
+.video-nav a {
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.video-nav a:hover {
+    background-color: rgba(255, 255, 255);
+    color: black;
+}
+/* end remixing topnav */
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+h1 {
+    font-family: monospace;
+    color: white;
+}
+
+p {
+    background: rgb(95, 91, 141);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+.centered-video {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    background: rgb(113, 108, 163);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
