@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden; 
+}
+
+.control-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: monospace;
+    background-color: #E9A5F1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10; 
+}
+
+.control-button:hover {
+    background-color: #E9A5F1;
+}
